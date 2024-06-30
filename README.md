@@ -9,8 +9,11 @@
 ## Laboratorio 2
 ### Ejercicio 1 - Array Operations
 **a. HEAD:** Implementa una función head (inmutable), tal que, dado un array como entrada extraiga y devuelva su primer elemento. Utiliza destructuring.
+
 **b. TAIL:** Implementa una función tail (inmutable), tal que, dado un array como entrada devuelta todos menos el primer elemento. Utiliza rest operator.
+
 **c. INIT:** Implementa una función init (inmutable), tal que, dado un array como entrada devuelva todos los elementos menos el último. Utiliza los métodos que ofrece Array.prototype.
+
 **d. LAST:** Implementa una función last (inmutable), tal que, dado un array como entrada devuelva el último elemento.
 
 ### Ejercicio 2 - Concat
