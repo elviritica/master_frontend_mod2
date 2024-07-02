@@ -16,11 +16,12 @@ class SlotMachine {
     this.wheelB = getRandomBoolean();
     this.wheelC = getRandomBoolean();
 
-    if (this.wheelA && this.wheelB && this.wheelC === true) {
+    if ((this.wheelA && this.wheelB && this.wheelC) === true) {
       console.log(`Congratulations!!!. You won ${this.price} coins!!`);
       this.price = 0;
+    } else {
+      console.log("Good luck next time!!");
     }
-    console.log("Good luck next time!!");
   }
 }
 
